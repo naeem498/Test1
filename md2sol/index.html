@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mod2Sol</title>
+	<meta charset="utf-8">
+
+<style> 
+
+* boxsizing: border-box;
+
+p {
+	margin-top: 100px;
+     background-color: #C0C0C0;
+     width: 90%;
+     height: 15%;
+     margin-right: auto;
+     margin-left: auto;
+
+ }
+
+ .menu
+{
+	padding: 10px;
+	text-align:right; 
+	background-color: #A52A2A;
+	width: -10px;
+}
+
+.row{
+
+	width: 100%;
+
+}
+
+ @media (min-width: 992px)  
+		{
+
+		.col-lg-1, .col-lg-2, .col-lg-3
+			{
+			float: left;
+			margin-right: 10px;
+			border: 2px solid black;
+			background-color: #C0C0C0;
+			}
+		
+		.col-lg-1 
+			{
+				width: 30%;
+				height: 15%;
+
+			}
+			
+		}
+
+
+@media (min-width: 768px) and (max-width: 991px) 
+
+		{
+
+		.col-md-1, .col-md-2, .col-md-3
+			{
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border: 2px solid black;
+			background-color: #C0C0C0;
+
+			}
+		
+		
+			
+		.col-md-2 
+			{
+				width: 40%;
+			}
+
+		.col-md-3 
+			{
+				width: 81.7%;
+			}	
+		}
+
+
+ @media (max-width: 767px) 
+
+		{
+
+		.col-sm-1, .col-sm-2, .col-sm-3
+			{
+			float: left;
+			border: 2px solid black;
+			margin-bottom: 10px;
+			background-color: #C0C0C0;
+
+			}
+
+		.col-sm-3 
+			{
+				width: 80%;
+			}	
+		}
+
+
+	}
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align: center">
+	Our Menu
+
+</h1>
+
+<div class = "row">
+
+<section class="col-lg-1 col-md-2 col-sm-3" >
+<p> 
+
+<h2 class = "menu" >
+	Chicken
+
+</h2>
+
+We have the best chicken in town. We have been in this business form the last 25 years.</p>
+</section>
+
+
+<section class="col-lg-1 col-md-2 col-sm-3">
+<p>
+<h2 class = "menu" >
+	Beef
+
+</h2>
+ We are sorry the beef is no longer available as it is already finished, will be available tomorrow.</p>
+</section>
+
+<section class="col-lg-1 col-md-3 col-sm-3">
+<p> 
+
+<h2 class = "menu" >
+	Sushi
+
+</h2>
+Please go to a Japanese restaurant. This is not a sushi restaurant. </p>
+</section>
+
+</div>
+
+
+</body>
+</html>
